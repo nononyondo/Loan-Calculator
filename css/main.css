@@ -1,0 +1,42 @@
+#loading, #results {
+  display: none;
+}
+
+#footer {
+  margin-top: 250px;
+  
+}
+
+#footer-para {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px;
+
+}
+
+
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 2rem;
+  }
+
+  #footer {
+    margin-top: 16rem;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+  }
+
+  #footer-para {
+    text-align: center;
+    margin: 5px;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
